@@ -229,6 +229,7 @@ export const SearchBar = ({ setSearchInput, setSearchRating, setActivityChange }
               </Col>
               <Col>
               <Select onChange={handleRatingChange} defaultValue="">
+                <option value="All">All</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
